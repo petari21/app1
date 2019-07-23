@@ -5,3 +5,4 @@ const server = http.createServer((request,response) => {
 	response.end("Hello World\n");
 });
 server.listen(7000);
+console.log('Started')
